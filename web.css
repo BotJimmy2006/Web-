@@ -1,0 +1,24 @@
+/* Styling for the image container */
+.image-container {
+    font-weight: bold; /* Makes text bold */
+    font-style: italic; /* Makes text italic */
+    color: hsl(0, 100%, 50%); /* Replace #333333 with your desired color */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Allows images to wrap on smaller screens */
+    gap: 20px; /* Adds space between images */
+    padding: 20px; /* Adds padding around the image area */
+  }
+  
+  /* Styling for images within the container */
+  .image-container .w3-image {
+    border-radius: 15px; /* Makes corners rounded */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+    transition: transform 0.3s; /* Smooth zoom effect on hover */
+  }
+  
+  /* Hover effect for images */
+  .image-container .w3-image:hover {
+    transform: scale(1.05); /* Slight zoom-in effect on hover */
+  }
